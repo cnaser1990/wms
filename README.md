@@ -41,3 +41,13 @@ This project provides a Web Map Service (WMS) using FastAPI and Rasterio. It pro
  * transparent (optional): Transparency percentage (0-100, default: 0)
  * format (optional): Output image format (png or jpeg, default: png).
  * Example : http://localhost:8000/wms?bbox=51.49628407,34.12773635,51.49814594,34.13008529&width=500&height=600&transparent=90&format=png
+
+
+## Running with Docker
+* docker build -t fastapi-wms .
+* docker run -p 8000:8000 fastapi-wms
+
+
+## Authors
+See the list of [AUTHORS](AUTHORS.md) who have contributed to this project.
+
